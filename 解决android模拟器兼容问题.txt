@@ -1,0 +1,14 @@
+%%解决android模拟器找不到文件错误--缺少32位支持库
+安装以下支持库：
+yum install xulrunner.i686
+yum install libXtst.i686
+yum install glibc.i686 glibc-devel.i686
+
+//主要是以下lib
+ 因为Android SDK需要32bit的lib才可以运行，而当前环境是64bit的，所以需要下载安装32bit的lib
+
+            yum install glibc.i686
+
+            yum install zlib.i686
+//详情可见
+http://my.oschina.net/stevegym/blog/207869
