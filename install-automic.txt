@@ -1,6 +1,0 @@
-wget -q -O - http://www.atomicorp.com/installers/atomic | sh
-
-安装完后在/etc/yum.repos.d/目录会有一个atomic.repo文件。
-
-Atomic仓库支持哪些软件可以到这个地址查看：http://www.atomicorp.com/channels/atomic/
-有php、mysql、nginx、openvas、memcached、php-zend-guard-loader等软件。
